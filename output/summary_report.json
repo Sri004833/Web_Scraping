@@ -1,0 +1,41 @@
+{
+  "execution": {
+    "start_time_utc": "2026-10-07T01:46:43.013948+00:00",
+    "end_time_utc": "2026-10-07T01:47:40.753769+00:00",
+    "duration_seconds": 57.74
+  },
+  "sources": {
+    "Books to Scrape": {
+      "raw_records": 1000,
+      "cleaned_records": 1000,
+      "valid_records": 1000,
+      "rejected_records": 0,
+      "rejection_reasons": {},
+      "duplicates_removed": 1,
+      "final_records": 999
+    },
+    "Quotes to Scrape": {
+      "raw_records": 100,
+      "cleaned_records": 100,
+      "valid_records": 100,
+      "rejected_records": 0,
+      "rejection_reasons": {},
+      "duplicates_removed": 0,
+      "final_records": 100
+    }
+  },
+  "overall": {
+    "total_raw_collected": 1100,
+    "total_cleaned": 1100,
+    "total_rejected": 0,
+    "rejection_reasons": {},
+    "total_duplicates_removed": 1,
+    "total_final_records": 1099,
+    "reconciliation": {
+      "formula": "raw - rejected - duplicates == final",
+      "calculated": "1100 - 0 - 1 = 1099",
+      "expected": 1099,
+      "reconciled": true
+    }
+  }
+}
